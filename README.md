@@ -14,7 +14,7 @@ Tích hợp CRM · MARKETING · ERP · POS · Workflow · Trợ lý AI - vận h
 
 [🇬🇧 English](./README.en.md)
 
-![Version](https://img.shields.io/badge/version-26.11.5-22c55e)
+![Version](https://img.shields.io/badge/version-26.11.6-22c55e)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Ubuntu-3b82f6)
 ![Electron](https://img.shields.io/badge/Electron-41-47848f?logo=electron&logoColor=white)
 ![React](https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=white)
@@ -39,12 +39,12 @@ Tích hợp CRM · MARKETING · ERP · POS · Workflow · Trợ lý AI - vận h
 ---
 
 > [!NOTE]
-> ### 📌 Các tính năng & cải tiến chính (v26.11.5):
-> - 🧠 **Nâng cấp AI Assistant & Phong cách giao tiếp trực quan**: Bổ sung bảng **Cấu hình phong cách giao tiếp** (Preset *Nghiêm túc / Nhanh nhẹn / Vui vẻ / Tư vấn / Kỹ thuật*, 5 thanh trượt mức độ & chọn cách xưng hô); nâng cấp **Prompt Wizard** với mẫu *Trợ lý Cá nhân & Điều hành (Như người thật)* và *Cộng sự Kỹ thuật thực chiến* khử văn mẫu AI (*Anti-AI-Slop*); mở rộng năng lực điều phối hội thoại và đề xuất quy trình cho **Trợ lý AI Tổng (AI Butler)**; tối ưu Workflow AI Copilot cho các lượt `@nhắc` liên tiếp trong nhóm.
-> - 📱 **Tinh chỉnh toàn diện giao diện Mobile Web cho nhân viên**: Thanh điều hướng đáy (`MobileBottomNav`), bảng chuyển/gộp tài khoản nhanh (`MobileAccountBar`), chiều cao động `100dvh` + `safe-area` chống che bàn phím ảo Safari/Chrome, mở toàn màn hình các panel thông tin/AI/tích hợp trên điện thoại.
-> - 💬 **Nâng cấp kênh WeChat Desktop (UOS Patch)**: Hỗ trợ đăng nhập WeChat cá nhân & quốc tế ổn định vượt lỗi Web `1203`, đồng bộ danh bạ/tin nhắn 2 chiều và nút đồng bộ nhanh trên thanh công cụ.
-> - 🤖 **Sửa lỗi & nâng cấp nút bấm Bot Telegram (UI)**: Hỗ trợ đầy đủ bàn phím reply tuỳ chỉnh của Bot (`ReplyKeyboardMarkup`) ngay trên khung soạn tin và sửa lỗi hiển thị `inline_buttons`.
-> - 🪷 **Nhận diện thương hiệu SEN-Workflow**: Biểu tượng chữ V hoa sen công nghệ (*SEN – Smart Enterprise Network · Kết nối công việc – Kiến tạo giá trị*) cùng cơ chế tự động di trú dữ liệu từ các bản cũ.
+> ### 📌 Các tính năng & cải tiến chính (v26.11.6):
+> - 🌐 **Dịch tin nhắn tự động ngay trong mọi khung chat**: Bổ sung nút **Dịch tin nhắn** (Bật/Tắt) kèm **nút bánh răng nhỏ (`⚙`)** chọn **Ngôn ngữ đích** ngay trong menu **Thêm tính năng (`...`)** của tất cả khung chat (Zalo, Facebook, Telegram, LINE, WeChat — nhóm & cá nhân). Hiển thị **tin nhắn gốc ở trên, bản dịch ở dưới**; tự phát hiện ngôn ngữ độc lập từng tin (hỗ trợ hội thoại nhiều ngôn ngữ); chỉ dịch các tin đang hiện trên màn hình + vùng đệm khi lăn chuột.
+> - ☁️ **Tự động thiết lập Google Drive Cloud Sync**: Hỗ trợ `autoSetup` tự tạo Google OAuth client và giới hạn lưu lượng tự động (`setAutoLimits`) tránh vượt hạn mức.
+> - 📱 **Tối ưu Responsive toàn diện & sửa lỗi UI**: Tinh chỉnh bố cục Mobile/Responsive cho Workflow, Tích hợp, Trợ lý AI; sửa lỗi menu bộ lọc hội thoại (`⋮`) bị cắt mép phải.
+> - 🧠 **Nâng cấp AI Assistant & Phong cách giao tiếp trực quan**: Bổ sung bảng **Cấu hình phong cách giao tiếp** (Preset *Nghiêm túc / Nhanh nhẹn / Vui vẻ / Tư vấn / Kỹ thuật*, 5 thanh trượt mức độ & chọn cách xưng hô); nâng cấp **Prompt Wizard** và **Trợ lý AI Tổng (AI Butler)**.
+> - 💬 **Kênh WeChat Desktop (UOS Patch) & Bot Telegram**: Hỗ trợ đăng nhập WeChat cá nhân/quốc tế vượt lỗi Web `1203` và bàn phím `ReplyKeyboardMarkup` của Bot Telegram.
 > - 👁️ **AI Vision & Kho kiến thức đa nguồn NotebookLM**: Phân tích ảnh trực tiếp; nạp Word (`.docx`), Excel (`.xlsx`), URL web, Google Docs/Sheets và tự đồng bộ định kỳ.
 
 ---
@@ -57,41 +57,41 @@ Tích hợp CRM · MARKETING · ERP · POS · Workflow · Trợ lý AI - vận h
 <tr>
 <td align="center" width="50%">
 
-<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-Setup-26.11.5.exe">
-<img src="https://img.shields.io/badge/🪟_Windows_10/11-v26.11.5-0078d4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows" />
+<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-Setup-26.11.6.exe">
+<img src="https://img.shields.io/badge/🪟_Windows_10/11-v26.11.6-0078d4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows" />
 </a>
 
-<big><strong>SEN-Workflow-Setup-26.11.5.exe</strong></big>
+<big><strong>SEN-Workflow-Setup-26.11.6.exe</strong></big>
 
 </td>
 <td align="center" width="50%">
 
-<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-26.11.5-arm64.dmg">
-<img src="https://img.shields.io/badge/🍎_macOS_M1+-v26.11.5-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Apple Silicon" />
+<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-26.11.6-arm64.dmg">
+<img src="https://img.shields.io/badge/🍎_macOS_M1+-v26.11.6-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Apple Silicon" />
 </a>
 
-<big><strong>SEN-Workflow-26.11.5-arm64.dmg</strong></big>
+<big><strong>SEN-Workflow-26.11.6-arm64.dmg</strong></big>
 
 </td>
 </tr>
 <tr>
 <td align="center" width="50%">
 
-<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-26.11.5.AppImage">
-<img src="https://img.shields.io/badge/🐧_Ubuntu_Linux-v26.11.5-e95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Download Ubuntu" />
+<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-26.11.6.AppImage">
+<img src="https://img.shields.io/badge/🐧_Ubuntu_Linux-v26.11.6-e95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Download Ubuntu" />
 </a>
 
-<big><strong>SEN-Workflow-26.11.5.AppImage</strong></big><br>
+<big><strong>SEN-Workflow-26.11.6.AppImage</strong></big><br>
 <big>chạy mọi distro - <code>chmod +x</code> là dùng được</big>
 
 </td>
 <td align="center" width="50%">
 
-<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-26.11.5.dmg">
-<img src="https://img.shields.io/badge/🍎_macOS_Intel-v26.11.5-555555?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Intel" />
+<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-26.11.6.dmg">
+<img src="https://img.shields.io/badge/🍎_macOS_Intel-v26.11.6-555555?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Intel" />
 </a>
 
-<big><strong>SEN-Workflow-26.11.5.dmg</strong></big>
+<big><strong>SEN-Workflow-26.11.6.dmg</strong></big>
 
 </td>
 </tr>
