@@ -14,7 +14,7 @@ CRM · Marketing · ERP · POS · Workflow · AI Assistant — all in one unifie
 
 [🇻🇳 Tiếng Việt](./README.md)
 
-![Version](https://img.shields.io/badge/version-26.11.6-22c55e)
+![Version](https://img.shields.io/badge/version-26.11.7-22c55e)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Ubuntu-3b82f6)
 ![Electron](https://img.shields.io/badge/Electron-41-47848f?logo=electron&logoColor=white)
 ![React](https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=white)
@@ -39,12 +39,12 @@ CRM · Marketing · ERP · POS · Workflow · AI Assistant — all in one unifie
 ---
 
 > [!NOTE]
-> ### 📌 Key Enhancements & Features (v26.11.6):
-> - 🌐 **Auto In-Chat Message Translation**: New **Translate Messages** toggle + **target language gear (`⚙`)** inside the **More Features (`...`)** menu across all chat windows (Zalo, Facebook, Telegram, LINE, WeChat — DMs, groups & comments). Displays **original message on top, translation below**, auto-detects each message's language independently (including multi-language threads), and translates only visible messages + scroll buffer.
-> - ☁️ **Google Drive Auto-Setup & Auto Rate Limits**: Added `autoSetup` for one-click Google OAuth client creation and automatic daily quota throttling (`setAutoLimits`) for Google Drive Cloud Sync.
-> - 📱 **Responsive UI Polish & Filter Menu Fix**: Improved responsive/mobile layouts for Workflow, Integrations, and AI Assistant pages; fixed the conversation list filter menu (`⋮`) getting clipped on the right edge.
-> - 🧠 **AI Assistant & Visual Communication Style**: Communication Style Panel (presets, 5 tone sliders, honorific selector), upgraded Prompt Wizard & AI Butler omnichannel coordination.
-> - 💬 **WeChat Desktop Protocol (UOS Patch) & Telegram Bot UI**: Personal/international WeChat login bypassing error `1203` and native Telegram Bot `ReplyKeyboardMarkup`.
+> ### 📌 Key Enhancements & Features (v26.11.7):
+> - 🧠 **SEN Harness 2.0 (Modular Skills, Guardrails & Offline Self-Optimizer)**: Added **Harness Studio** inside AI Assistant settings with 3 role presets (*Sales & Support*, *Technical B2B*, *Executive Secretary*), 6 one-click Skills & 5 Guardrails, **BM25 Smart Knowledge Retrieval** for token efficiency, 1-hop sibling assistant delegation, daily token budgets, an **Offline `Propose – Probe – Compose` Optimizer** with Before/After comparisons (zero live messages sent), a persistent **Improvement Library**, and 1-click **Version Rollback**.
+> - 🛡️ **AI Butler Harness 2.0**: Upgraded native Tool/Function Calling across providers (OpenAI, Gemini, Claude, DeepSeek, Grok, 9Router), risk classification with interactive approval cards (*HITL Gate*), `ToolLoopGuard`, and automatic long-conversation compaction.
+> - 💬 **LINE Chrome Extension Stability Fix**: Fixed login freeze, optimized QR polling cadence, and improved image sync reliability.
+> - 🌐 **Auto In-Chat Message Translation**: Toggle **Translate Messages** + choose target language (`⚙`) directly in the chat `...` menu (original on top, translation below, viewport-aware with multi-language auto-detection).
+> - ☁️ **Google Drive Auto-Setup & Responsive UI**: One-click `autoSetup` OAuth client creation, `setAutoLimits` daily throttling, and mobile/desktop responsive layout refinements.
 > - 👁️ **AI Vision & NotebookLM Knowledge Base**: Multimodal image analysis and multi-source sync (`.docx`, `.xlsx`, URLs, Google Docs/Sheets).
 
 ---
@@ -57,41 +57,41 @@ CRM · Marketing · ERP · POS · Workflow · AI Assistant — all in one unifie
 <tr>
 <td align="center" width="50%">
 
-<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-Setup-26.11.6.exe">
-<img src="https://img.shields.io/badge/🪟_Windows_10/11-v26.11.6-0078d4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows" />
+<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-Setup-26.11.7.exe">
+<img src="https://img.shields.io/badge/🪟_Windows_10/11-v26.11.7-0078d4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows" />
 </a>
 
-<big><strong>SEN-Workflow-Setup-26.11.6.exe</strong></big>
+<big><strong>SEN-Workflow-Setup-26.11.7.exe</strong></big>
 
 </td>
 <td align="center" width="50%">
 
-<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-26.11.6-arm64.dmg">
-<img src="https://img.shields.io/badge/🍎_macOS_M1+-v26.11.6-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Apple Silicon" />
+<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-26.11.7-arm64.dmg">
+<img src="https://img.shields.io/badge/🍎_macOS_M1+-v26.11.7-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Apple Silicon" />
 </a>
 
-<big><strong>SEN-Workflow-26.11.6-arm64.dmg</strong></big>
+<big><strong>SEN-Workflow-26.11.7-arm64.dmg</strong></big>
 
 </td>
 </tr>
 <tr>
 <td align="center" width="50%">
 
-<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-26.11.6.AppImage">
-<img src="https://img.shields.io/badge/🐧_Ubuntu_Linux-v26.11.6-e95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Download Ubuntu" />
+<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-26.11.7.AppImage">
+<img src="https://img.shields.io/badge/🐧_Ubuntu_Linux-v26.11.7-e95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Download Ubuntu" />
 </a>
 
-<big><strong>SEN-Workflow-26.11.6.AppImage</strong></big><br>
+<big><strong>SEN-Workflow-26.11.7.AppImage</strong></big><br>
 <big>works on any distro - <code>chmod +x</code> & run</big>
 
 </td>
 <td align="center" width="50%">
 
-<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-26.11.6.dmg">
-<img src="https://img.shields.io/badge/🍎_macOS_Intel-v26.11.6-555555?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Intel" />
+<a href="https://github.com/acenguyen0210/SEN-Workflow/releases/latest/download/SEN-Workflow-26.11.7.dmg">
+<img src="https://img.shields.io/badge/🍎_macOS_Intel-v26.11.7-555555?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Intel" />
 </a>
 
-<big><strong>SEN-Workflow-26.11.6.dmg</strong></big>
+<big><strong>SEN-Workflow-26.11.7.dmg</strong></big>
 
 </td>
 </tr>
